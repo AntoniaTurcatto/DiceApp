@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiceApp - Turma C</string>
+    <string name="rolar_o_dado">Lance o dado</string>
+</resources>
