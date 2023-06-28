@@ -2,4 +2,19 @@
 <resources>
     <string name="app_name">DiceApp - Turma C</string>
     <string name="rolar_o_dado">Tirar los dados</string>
+    <string name="icon_description">Icone Dice App</string>
+    <string name="chose_your_dice">Escolha su dado</string>
+    <string name="d4">d4</string>
+    <string name="d6">d6</string>
+    <string name="d8">d8</string>
+    <string name="d10">d10</string>
+    <string name="d12">d12</string>
+    <string name="d20">d20</string>
+    <string name="result">A face sorteada foi %1$s</string>
+    <string name="title_d4">Tira lo dado D4</string>
+    <string name="title_d6">Tira lo dado D6</string>
+    <string name="title_d8">Tira lo dado D8</string>
+    <string name="title_d10">Tira lo dado D10</string>
+    <string name="title_d12">Tira lo dado D12</string>
+    <string name="title_d20">Tira lo dado D20</string>
 </resources>

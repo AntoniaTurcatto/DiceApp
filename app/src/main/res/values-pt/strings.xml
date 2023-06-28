@@ -2,4 +2,19 @@
 <resources>
     <string name="app_name">Dice App</string>
     <string name="rolar_o_dado">Lance o dado</string>
+    <string name="icon_description">Ícone Dice App</string>
+    <string name="chose_your_dice">Escolha seu dado</string>
+    <string name="d4">d4</string>
+    <string name="d6">d6</string>
+    <string name="d8">d8</string>
+    <string name="d10">d10</string>
+    <string name="d12">d12</string>
+    <string name="d20">d20</string>
+    <string name="result">A face sorteada foi %1$s</string>
+    <string name="title_d4">Jogue o dado D4</string>
+    <string name="title_d6">Jogue o dado D6</string>
+    <string name="title_d8">Jogue o dado D8</string>
+    <string name="title_d10">Jogue o dado D10</string>
+    <string name="title_d12">Jogue o dado D12</string>
+    <string name="title_d20">Jogue o dado D20</string>
 </resources>

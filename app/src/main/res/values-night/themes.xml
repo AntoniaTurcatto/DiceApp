@@ -3,5 +3,33 @@
     <style name="Base.Theme.DiceApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/egyptian_blue</item>
+        <item name="colorOnPrimary">@color/egyptian_blue_on</item>
+        <item name="colorPrimaryContainer">@color/egyptian_blue_container</item>
+        <item name="colorOnPrimaryContainer">@color/egyptian_blue_on_container</item>
+
+        <item name="colorSecondary">@color/light_green</item>
+        <item name="colorOnSecondary">@color/light_green_on</item>
+        <item name="colorSecondaryContainer">@color/light_green_container</item>
+        <item name="colorOnSecondaryContainer">@color/light_green_on_container</item>
+
+        <item name="colorTertiary">@color/sepia</item>
+        <item name="colorOnTertiary">@color/sepia_on</item>
+        <item name="colorTertiaryContainer">@color/sepia_container</item>
+        <item name="colorOnTertiaryContainer">@color/sepia_on_container</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+
+        <item name="colorBackgroundFloating">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
     </style>
 </resources>

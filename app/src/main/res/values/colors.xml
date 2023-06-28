@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="green">#228b22</color>
+    <color name="egyptian_blue">#3859b4</color>
+    <color name="egyptian_blue_on">#ffffff</color>
+    <color name="egyptian_blue_container">#dbe1ff</color>
+    <color name="egyptian_blue_on_container">#00174c</color>
+    <color name="light_green">#026e00</color>
+    <color name="light_green_on">#ffffff</color>
+    <color name="light_green_container">#77ff61</color>
+    <color name="light_green_on_container">#002200</color>
+    <color name="sepia">#6c5e00</color>
+    <color name="sepia_on">#ffffff</color>
+    <color name="sepia_container">#fbe366</color>
+    <color name="sepia_on_container">#211b00</color>
+    <color name="error">#ba1a1a</color>
+    <color name="on_error">#ffffff</color>
+    <color name="error_container">#ffdad6</color>
+    <color name="on_error_container">#410002</color>
+    <color name="background">#fefbff</color>
+    <color name="on_background">#1b1b1f</color>
+    <color name="surface">#fefbff</color>
+    <color name="on_surface">#1b1b1f</color>
+    <color name="outline">#757680</color>
+    <color name="surface_variant">#e2e1ec</color>
+    <color name="on_surface_variant">#45464f</color>
 </resources>

@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">DiceApp - Turma C</string>
     <string name="rolar_o_dado">Roll the dice</string>
+    <string name="icon_description">Dice App Icon</string>
+    <string name="chose_your_dice">Choose your dice</string>
+    <string name="d4">d4</string>
+    <string name="d6">d6</string>
+    <string name="d8">d8</string>
+    <string name="d10">d10</string>
+    <string name="d12">d12</string>
+    <string name="d20">d20</string>
+    <string name="result">The drawn face was %1$s</string>
+    <string name="title_d4">Roll the D4 dice</string>
+    <string name="title_d6">Roll the D6 dice</string>
+    <string name="title_d8">Roll the D8 dice</string>
+    <string name="title_d10">Roll the D10 dice</string>
+    <string name="title_d12">Roll the D12 dice</string>
+    <string name="title_d20">Roll the D20 dice</string>
 </resources>
