@@ -16,57 +16,61 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:selectionRequired="true"
         app:singleSelection="true">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/d4"
+            android:textSize="50sp"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/d4"
-            android:textColor="@color/light_green"
-            android:checked="true"/>
+           />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/d6"
+            android:textSize="50sp"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/d6"
-            android:textColor="@color/light_green"/>
+           />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/d8"
+            android:textSize="50sp"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/d8"
-            android:textColor="@color/light_green"/>
+           />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/d10"
+            android:textSize="50sp"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/d10"
-            android:textColor="@color/light_green"/>
+          />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/d12"
+            android:textSize="50sp"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/d12"
-            android:textColor="@color/light_green"/>
+           />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/d20"
+            android:textSize="50sp"
             style="@style/Widget.MaterialComponents.Chip.Choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/d20"
-            android:textColor="@color/light_green"/>
+        />
 
     </com.google.android.material.chip.ChipGroup>
 
@@ -75,8 +79,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textColor="@color/egyptian_blue"
-        android:textSize="35sp"
+        android:textColor="@color/md_theme_light_primary"
+
+        android:textSize="55sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -89,7 +94,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rolar_o_dado"
-        android:textColor="@color/light_green_on"
+        android:textSize="40sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,26 +104,28 @@
 
     <ImageView
         android:id="@+id/Imagem"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:contentDescription="@string/icon_description"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:src="@drawable/icon"
         app:layout_constraintBottom_toTopOf="@id/teste"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658" />
+        app:layout_constraintVertical_bias="0.658"
+        android:contentDescription="@string/icon_description" />
 
     <TextView
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/chose_your_dice"
+        android:textColor="@color/md_theme_light_primary"
+
         app:layout_constraintBottom_toTopOf="@+id/chipGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textSize="25sp"
-        android:textColor="@color/light_green"/>
+        android:textSize="35sp"
+      />
 </androidx.constraintlayout.widget.ConstraintLayout>
