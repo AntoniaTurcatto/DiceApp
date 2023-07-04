@@ -5,10 +5,14 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.google.android.material.chip.ChipGroup
 
 class MainActivity : AppCompatActivity() {
+
+    var isAnimating=false
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -168,5 +172,20 @@ class MainActivity : AppCompatActivity() {
 
             }
 
+    }
+    private fun mudarImagem(IDDaImagem:Int,imagemDoDado: ImageView){
+        if(!isAnimating){
+            isAnimating=true
+            imagemDoDado.animate().apply {
+                duration=700 //ms
+                rotationXBy(360f)
+                alpha(0f)//visibilidade
+            }.withEndAction(){
+                imagemDoDado.animate().apply {
+                    alpha(1f)//100%visível
+                }
+                imagemDoDado.setImageResource(IDDaImagem)
+            }.start()
+        }
     }
 }

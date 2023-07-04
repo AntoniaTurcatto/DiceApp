@@ -32,4 +32,10 @@
         <item name="colorSurfaceVariant">@color/surface_variant</item>
         <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
     </style>
+
+    <style name="Theme.TelaDeCarregamento" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icon</item>
+        <item name="windowSplashScreenBackground">@color/sepia_on</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.DiceApp</item>
+    </style>
 </resources>
